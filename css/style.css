@@ -3,3 +3,49 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.whole_page{
+
+}
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color:cornflowerblue;
+    list-style-type: none;
+    gap: 1rem;
+    font-size: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.navbar a:hover{
+    background-color: lightblue;
+    color: darkblue;
+}
+h1, h2{
+    text-align: center;
+}
+.mid_page {
+    margin: 30px;
+    display: flex;
+
+}
+.mid_page_1, .mid_page_2{
+   width: 50%;
+
+}
+.mid_page_1 img{
+
+    margin: 25px;
+}
+.mid_page_2{
+
+display: flex;
+ margin: 30px;
+    flex-direction: column;
+}
