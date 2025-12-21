@@ -74,6 +74,7 @@ h1, h2, h3 {
 }
 
 .talen, .intro {
+
     margin: 10px;
     border-style: solid;
     border-color: dodgerblue;
@@ -81,8 +82,15 @@ h1, h2, h3 {
     background-color: white;
 
 }
+.skills{
+    min-width: 300px;
+    border-style: solid;
+    border-color: dodgerblue;
+    border-radius: 10px;
+    background-color: white;
+}
 
-.talen h1:hover, .talen h3:hover, .intro h1:hover, .intro h3:hover {
+.talen h1:hover, .talen h3:hover, .intro h1:hover, .intro h3:hover .skills h1:hover, .skills h3:hover{
     background-color: lightblue;
     color: darkblue;
     border-style: solid;
@@ -98,7 +106,6 @@ h1, h2, h3 {
     margin: 30px;
     flex-direction: column;
 }
-
 .work_cards_container {
 
 
@@ -117,7 +124,10 @@ h1, h2, h3 {
     color: white;
     font-weight: bold;
 }
-
+.work_cards:hover {
+  background-color: darkblue;
+    border-color: black;
+}
 .work_cards p {
     margin: 15px;
 }
