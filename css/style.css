@@ -5,7 +5,7 @@
 }
 
 .whole_page{
-
+background-color: aliceblue;
 }
 
 .navbar{
@@ -39,6 +39,9 @@ h1, h2{
    width: 50%;
 
 }
+.img_me{
+width: 80%;
+}
 .mid_page_1 img{
 
     margin: 25px;
@@ -48,4 +51,21 @@ h1, h2{
 display: flex;
  margin: 30px;
     flex-direction: column;
+}
+.work_cards_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.work_cards img{
+
+    width: 100%;
+}
+.work_cards{
+border-color:  lightblue;
+
+    border-style: solid;
+    width: 40%;
+    margin: 2%;
 }

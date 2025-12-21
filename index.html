@@ -7,7 +7,7 @@
     <title>Portofolio</title>
 </head>
 <body>
-<nav class="whole_page">
+<div class="whole_page">
     <!--navbar-->
     <nav>
         <ul class="navbar">
@@ -22,14 +22,14 @@
     <h1>Portofolio</h1>
     <H2>Quinten delvaux</H2>
     <hr>
-    <nav class="mid_page">
+    <div class="mid_page">
         <!--prof-foto-->
-        <nav class="mid_page_1">
-            <img src="images/Quandale_D.webp" alt="profecionele foto">
+        <div class="mid_page_1">
+            <img class="img_me" src="images/Quandale_D.webp" alt="profecionele foto">
             <!--prof-foto-einde-->
-        </nav>
+        </div>
         <!--introductie-->
-        <nav class="mid_page_2">
+        <div class="mid_page_2">
             <p>Hallo, ik ben Quinten en i <3 c# Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Atque consequuntur cumque earum eligendi excepturi impedit necessitatibus nisi,
                 quas suscipit voluptatum.</p>
@@ -51,15 +51,41 @@
             <!--talen-kennis-einde-->
             <hr>
             <!--werkervaringen-->
-            <p>in een card BEGIN</p>
-            <p>bedrijf</p>
-            <p>functie</p>
-            <p>tijd gewerkt</p>
-            <p>beschrijving taken</p>
-            <p>in een card EINDE</p>
+            <h1>Gewerkt bij</h1>
+
+            <div class="work_cards_container">
+                <div class="work_cards">
+                    <img src="images/iPLUKONMAASMECHELEN.jpg" alt="">
+                    <div class="card_inners">
+                        <p>bedrijf: Plukon</p>
+                        <p>functie:</p>
+                        <p>tijd gewerkt: ? dagen</p>
+                        <p>beschrijving taken: dozen van een loopband op een pallet zetten.</p>
+                    </div>
+                </div>
+                <div class="work_cards">
+
+                    <div class="card_inners">
+                        <p>bedrijf: Plukon</p>
+                        <p>functie:</p>
+                        <p>tijd gewerkt: ? dagen</p>
+                        <p>beschrijving taken: dozen van een loopband op een pallet zetten.</p>
+                    </div>
+                </div>
+
+                <div class="work_cards">
+
+                    <div class="card_inners">
+                        <p>bedrijf: Plukon</p>
+                        <p>functie:</p>
+                        <p>tijd gewerkt: ? dagen</p>
+                        <p>beschrijving taken: dozen van een loopband op een pallet zetten.</p>
+                    </div>
+                </div>
+            </div>
             <!--werkervaringen-einde-->
-        </nav>
-    </nav>
-</nav>
+        </div>
+    </div>
+</div>
 </body>
 </html>
