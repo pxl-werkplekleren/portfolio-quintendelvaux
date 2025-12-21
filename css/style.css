@@ -19,16 +19,23 @@ background-color: aliceblue;
     font-size: 20px;
 }
 .navbar a{
+    border-radius: 30px;
+    border-style: solid;
+
+    padding: 8px;
     text-decoration: none;
     color: aliceblue;
-
+    transition: color 0.35s;
+    transition: font-size 0.35s;
 }
 .navbar a:hover{
     background-color: lightblue;
     color: darkblue;
+   font-size: 30px;
 }
-h1, h2{
+h1, h2, h3{
     text-align: center;
+    color: darkblue;
 }
 .mid_page {
     margin: 30px;
@@ -39,12 +46,33 @@ h1, h2{
    width: 50%;
 
 }
-.img_me{
+.img_me {
+    display: flex;
+    justify-content: center;
 width: 80%;
 }
-.mid_page_1 img{
+.mid_page_1{
+display: flex;
+align-items: center;
+    flex-direction: column;
+    padding: 25px;
+}
+.talen{
 
-    margin: 25px;
+    border-style: solid;
+    border-color: dodgerblue;
+    border-radius: 10px;
+    background-color: white;
+
+}
+.talen h1:hover, .talen h3:hover{
+    background-color: lightblue;
+    color: darkblue;
+    border-style: solid;
+    border-color: darkblue;
+    transform: scale(1.1);
+    transition: transform 0.3s;
+border-radius: 10px;
 }
 .mid_page_2{
 
@@ -52,20 +80,32 @@ display: flex;
  margin: 30px;
     flex-direction: column;
 }
+
 .work_cards_container{
+
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
+justify-content: center;
 }
 .work_cards img{
-
     width: 100%;
+    border-radius: 10px;
+}
+.work_cards span{
+    color: white;
+    font-weight: bold;
+}
+.work_cards p{
+    margin: 15px;
 }
 .work_cards{
-border-color:  lightblue;
-
+    color: aliceblue;
+    background-color: cornflowerblue;
+    border-color:  dodgerblue;
     border-style: solid;
-    width: 40%;
+    border-radius: 10px;
+    width: 210px;
     margin: 2%;
 }
